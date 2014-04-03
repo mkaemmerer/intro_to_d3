@@ -159,3 +159,4 @@ d3.select('svg')
     .attr("r",    function(d){ return size(population(d)); } )
     .attr("fill", function(d){ return color(continent(d)); } );
 ```
+<small>Source: http://www.gapminder.org/data/</small>
