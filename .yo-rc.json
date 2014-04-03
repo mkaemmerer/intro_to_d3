@@ -1,0 +1,7 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Data Visualization",
+    "packageVersion": "0.0.0",
+    "useSass": true
+  }
+}

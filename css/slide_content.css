@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+body {
+  font-family: 'Lato';
+  color: white;
+  font-size: 18px; }
+
+svg .axis text {
+  font: 13px sans-serif; }
+svg .axis path,
+svg .axis line {
+  fill: none;
+  shape-rendering: crispEdges; }
+svg label {
+  position: absolute;
+  top: 10px;
+  right: 10px; }
+
+svg .axis text {
+  fill: #000; }
+svg .axis line,
+svg .axis path {
+  stroke: #000; }
+
+svg.inverse .axis text {
+  fill: #fff; }
+svg.inverse .axis line,
+svg.inverse .axis path {
+  stroke: #fff; }
+
+.reveal pre code {
+  max-height: 300px; }

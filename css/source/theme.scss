@@ -1,0 +1,84 @@
+/**
+ * Default theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts ----------------
+@import "./fonts";
+
+// ---------------------------------------------
+// Background of the presentation
+$backgroundColor: #2b2b2b;
+@mixin bodyBackground() {
+  background: $backgroundColor;
+}
+
+// Primary/body text
+$mainFont: 'Lato', sans-serif;
+$mainFontSize: 36px;
+$mainColor: #eee;
+
+// Headings
+$headingMargin: 0 0 20px 0;
+$headingFont: 'Oswald', Impact, sans-serif;
+$headingColor: #eee;
+$headingLineHeight: 1em;
+$headingLetterSpacing: 0.02em;
+$headingTextTransform: uppercase;
+$headingTextShadow: 0 15px 20px rgba(0,0,0,.5);
+$heading1TextShadow:
+  0 1px 0 #aaa,
+  0 2px 0 #999999,
+  0 3px 0 #999,
+  0 4px 0 #898989,
+  0 5px 0 #888,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.5);
+
+// Links and actions
+$linkColor: #13DAEC;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+
+// ---------------------------------------------
+h1 {
+  font-weight: bold!important;
+}
+
+.reveal code {
+  margin-left: 1ex;
+  margin-right: 1ex;
+}
+.reveal p em, .reveal ul em{
+  font-weight: lighter;
+}
+.reveal strong {
+  font-weight: bolder;
+}
+
+
+.reveal iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
