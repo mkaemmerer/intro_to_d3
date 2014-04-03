@@ -1,0 +1,18 @@
+[
+    "index.md",
+
+    {
+      "filename": "overview.md",
+      "attr": {
+        "data-background": "slides/slide_content/d3.png"
+      }
+    },
+
+    "circle1.md",
+    "circle2.md",
+    "circle3.md",
+    "scale1.md",
+    "scale2.md",
+    "chart.md",
+    "takeaways.md"
+]
